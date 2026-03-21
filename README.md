@@ -1,6 +1,6 @@
 # Blast Furnace Isotherm Estimation (CQTDAH)
 
-This project was developed for the **Numerical Methods Laboratory** (Trabajo Práctico 1). It provides a high-performance C++ implementation to estimate the internal temperature distribution and specific isotherms ($500^\circ\text{C}$) within the wall of a cylindrical blast furnace.
+This project was developed for the **Numerical Methods Laboratory** (Trabajo Práctico 1). It provides a high-performance C++ implementation to estimate the internal temperature distribution and specific isotherms within the wall of a cylindrical blast furnace.
 
 The project models the steady-state heat equation in polar coordinates and solves the resulting linear system using **Gaussian Elimination** and **LU Factorization**.
 
