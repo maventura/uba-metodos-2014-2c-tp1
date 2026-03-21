@@ -8,7 +8,7 @@ The project models the steady-state heat equation in polar coordinates and solve
 
 The goal is to determine if the $500^\circ\text{C}$ isotherm is too close to the outer wall of a furnace, which could indicate structural risk.
 * **Internal Temperature ($T_i$):** $1500^\circ\text{C}$.
-* **External Temperature ($T_e$):** Measured by $n$ sensors (typically $50^\circ\text{C}$–$200^\circ\text{C}$).
+* **External Temperature ($T_e$):** Measured by $n$ sensors
 * **Model:** 2D Heat Equation in steady state:
     $$\frac{\partial^2T}{\partial r^2} + \frac{1}{r}\frac{\partial T}{\partial r} + \frac{1}{r^2}\frac{\partial^2T}{\partial \theta^2} = 0$$
 
