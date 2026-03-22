@@ -49,7 +49,7 @@ The program accepts the following command-line arguments:
 * **`method`**: `0` for Gaussian Elimination, `1` for LU Factorization.
 * **`isotherm_file`** (Optional): Path to save the calculated radii of the sought isotherm.
 
-## 📊 Methodology
+##  Methodology
 
 1.  **Discretization:** The furnace wall (Sector A) is partitioned into $m$ radial increments and $n$ angular increments.
 2.  **Finite Differences:** Derivatives are approximated to transform the PDE into a system of linear equations $At = b$.
@@ -57,11 +57,11 @@ The program accepts the following command-line arguments:
     * **LU Factorization:** $\mathcal{O}((nm)^3)$ for the first instance, $\mathcal{O}((nm)^2)$ for subsequent instances with different boundary conditions.
 4.  **Interpolation:** Linear interpolation is used to find the exact radial position of the isotherm between discrete points.
 
-## 📈 Performance Analysis
+##  Performance Analysis
 
 The repository includes a comprehensive experimental suite. Key findings from the report indicate:
 * LU Factorization is significantly more efficient for real-time monitoring systems where sensor data changes frequently but the furnace geometry (the matrix $A$) remains constant.
 * The system implementation is verified to be Diagonal Dominant (non-strict), ensuring stability for Gaussian Elimination without pivoting.
 
-## ⚖️ License
+##  License
 This project was developed for academic purposes at the University of Buenos Aires (UBA).
